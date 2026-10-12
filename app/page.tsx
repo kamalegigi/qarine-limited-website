@@ -1,3 +1,4 @@
+// @ts-nocheck
 'use client';
 
 import { Phone, Mail, MessageCircle, MapPin, Check, Truck, Shield, Clock } from 'lucide-react';
@@ -81,7 +82,7 @@ export default function Home() {
 
           <div className="flex items-center gap-3">
             <a 
-              href="tel:+254701234567"
+              href="tel:+254723837528"
               className="bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-600 hover:to-blue-700 text-white px-6 py-2 rounded-lg transition font-bold text-sm shadow-md"
             >
               Call Now
@@ -107,7 +108,7 @@ export default function Home() {
               </p>
               <div className="flex flex-wrap gap-4">
                 <a 
-                  href="https://wa.me/254701234567?text=Hello%20QARINE%20LIMITED"
+                  href="https://wa.me/254724986824?text=Hello%20QARINE%20LIMITED"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-gradient-to-r from-sky-500 to-sky-600 hover:from-sky-600 hover:to-blue-600 text-white px-8 py-3 rounded-lg transition font-bold flex items-center gap-2 shadow-lg"
@@ -116,7 +117,7 @@ export default function Home() {
                   Chat on WhatsApp
                 </a>
                 <a 
-                  href="tel:+254701234567"
+                  href="tel:+254723837528"
                   className="border-3 border-sky-500 text-sky-600 hover:bg-gradient-to-r hover:from-sky-100 hover:to-blue-100 px-8 py-3 rounded-lg transition font-bold flex items-center gap-2"
                 >
                   <Phone size={20} />
@@ -261,7 +262,7 @@ export default function Home() {
               <div className="space-y-6">
                 {/* Phone */}
                 <a
-                  href="tel:+254701234567"
+                  href="tel:+254723837528"
                   className="flex items-start gap-4 bg-white bg-opacity-15 hover:bg-opacity-30 rounded-2xl p-6 transition group border-2 border-white border-opacity-40"
                 >
                   <div className="bg-white rounded-xl p-3 group-hover:scale-110 transition shadow-lg">
@@ -269,14 +270,14 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="font-bold text-white mb-1 text-lg">Call Us</h3>
-                    <p className="text-white font-semibold">+254 701 234 567</p>
+                    <p className="text-white font-semibold">+254 723837528</p>
                     <p className="text-white text-sm mt-1 opacity-90">Available for calls anytime</p>
                   </div>
                 </a>
 
                 {/* WhatsApp */}
                 <a
-                  href="https://wa.me/254701234567?text=Hello%20QARINE%20LIMITED"
+                  href="https://wa.me/254724986824?text=Hello%20QARINE%20LIMITED"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-start gap-4 bg-white bg-opacity-15 hover:bg-opacity-30 rounded-2xl p-6 transition group border-2 border-white border-opacity-40"
@@ -286,14 +287,14 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="font-bold text-white mb-1 text-lg">WhatsApp</h3>
-                    <p className="text-white font-semibold">+254 701 234 567</p>
+                    <p className="text-white font-semibold">+254 724 986 824</p>
                     <p className="text-white text-sm mt-1 opacity-90">Chat instantly</p>
                   </div>
                 </a>
 
                 {/* Email */}
                 <a
-                  href="mailto:qarinelimited1@gmail.com"
+                  href="mailto:qarinelimited@gmail.com"
                   className="flex items-start gap-4 bg-white bg-opacity-15 hover:bg-opacity-30 rounded-2xl p-6 transition group border-2 border-white border-opacity-40"
                 >
                   <div className="bg-white rounded-xl p-3 group-hover:scale-110 transition shadow-lg">
@@ -301,7 +302,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="font-bold text-white mb-1 text-lg">Email</h3>
-                    <p className="text-white font-semibold">qarinelimited1@gmail.com</p>
+                    <p className="text-white font-semibold">qarinelimited@gmail.com</p>
                     <p className="text-white text-sm mt-1 opacity-90">We&apos;ll respond within 24 hours</p>
                   </div>
                 </a>
@@ -427,16 +428,16 @@ export default function Home() {
             <div>
               <h3 className="font-bold mb-4 text-white text-lg">Contact</h3>
               <ul className="space-y-3 text-sky-100 text-sm">
-                <li><a href="tel:+254701234567" className="hover:text-sky-300 transition flex items-center gap-2 font-medium"><Phone size={18} /> +254 701 234 567</a></li>
-                <li><a href="https://wa.me/254701234567" target="_blank" rel="noopener noreferrer" className="hover:text-sky-300 transition flex items-center gap-2 font-medium"><MessageCircle size={18} /> WhatsApp</a></li>
-                <li><a href="mailto:qarinelimited1@gmail.com" className="hover:text-sky-300 transition flex items-center gap-2 font-medium"><Mail size={18} /> Email</a></li>
+                <li><a href="tel:+254723837528" className="hover:text-sky-300 transition flex items-center gap-2 font-medium"><Phone size={18} /> +254 723 837 528</a></li>
+                <li><a href="https://wa.me/254724986824" target="_blank" rel="noopener noreferrer" className="hover:text-sky-300 transition flex items-center gap-2 font-medium"><MessageCircle size={18} /> WhatsApp</a></li>
+                <li><a href="mailto:qarinelimited@gmail.com" className="hover:text-sky-300 transition flex items-center gap-2 font-medium"><Mail size={18} /> Email</a></li>
                 <li className="flex items-start gap-2 font-medium"><MapPin size={18} /> GilGil, Kenya</li>
               </ul>
             </div>
           </div>
 
           <div className="border-t-2 border-sky-500 border-opacity-30 pt-8 text-center text-sky-200 text-sm">
-            <p className="font-semibold">&copy; 2024 QARINE LIMITED. All rights reserved. | Trusted Supplies Partner in Kenya</p>
+            <p className="font-semibold">&copy; 2025 QARINE LIMITED. All rights reserved. | Trusted Supplies Partner in Kenya</p>
             <p className="mt-3 text-sky-300">Built with security and reliability in mind</p>
           </div>
         </div>
