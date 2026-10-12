@@ -1,6 +1,13 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
+import { createElement, type ReactNode } from 'react'
 import './globals.css'
+
+declare const process: {
+  env: {
+    NODE_ENV?: string
+  }
+}
 
 export const metadata: Metadata = {
   title: 'QARINE LIMITED | Quality Supplies in GilGil, Kenya',
@@ -45,14 +52,16 @@ export const viewport: Viewport = {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: ReactNode
 }>) {
-  return (
-    <html lang="en" className="bg-background scroll-smooth">
-      <body className="antialiased">
-        {children}
-        {process.env.NODE_ENV === 'production' && <Analytics />}
-      </body>
-    </html>
+  return createElement(
+    'html',
+    { lang: 'en', className: 'bg-background scroll-smooth' },
+    createElement(
+      'body',
+      { className: 'antialiased' },
+      children,
+      process.env.NODE_ENV === 'production' ? createElement(Analytics) : null,
+    ),
   )
 }
